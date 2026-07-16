@@ -18,7 +18,7 @@ function displaytime(){
    let ss = String(date.getSeconds()).padStart(2, "0");
    let dy = date.getDay();
    let dt = date.getDate();
-   let mnth = date.getMonth();
+   let mnth = date.getMonth()+1;
    let yr = date.getFullYear();
 
      if (hh >= 12) {
